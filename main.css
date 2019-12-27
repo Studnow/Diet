@@ -1,0 +1,729 @@
+/*
+container = _1_desktop
+*/
+@font-face {
+	font-family: "Poppins";
+	src: url("../fonts/Poppins/Poppins-Bold.ttf"),
+	src: url("../fonts/Poppins/Poppins-ExtraBold.ttf"),
+	src: url("../fonts/Poppins/Poppins-Black.ttf");
+	src: url("../fonts/Poppins/Poppins-Regular.ttf");
+	src: url("../fonts/Poppins/Poppins-Light.ttf");
+	src: url("../fonts/Poppins/Poppins-LightItalic.ttf");
+	src: url("../fonts/Poppins/Poppins-ExtraLight.ttf");
+	src: url("../fonts/Poppins/Poppins-ExtraBoldItalic.ttf");
+	src: url("../fonts/Poppins/Poppins-ExtraLightItalic.ttf");
+	src: url("../fonts/Poppins/Poppins-Medium.ttf");
+	src: url("../fonts/Poppins/Poppins-MediumItalic.ttf");
+	src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
+	src: url("../fonts/Poppins/Poppins-SemiBoldItalic.ttf");
+	src: url("../fonts/Poppins/Poppins-Thin.ttf");
+	src: url("../fonts/Poppins/Poppins-ThinItalic.ttf");
+	src: url("../fonts/Poppins/Poppins-BlackItalic.ttf");
+	src: url("../fonts/Poppins/Poppins-BoldItalic.ttf");
+	src: url("../fonts/Poppins/Poppins-Italic.ttf");
+}
+
+body {
+	font-family: "Poppins";
+	font-size: 16px;
+}
+
+header {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 84px;
+ /* border-bottom: 1px solid rgba(58, 69, 107, 0.1);
+ box-shadow: 0px 3px 9px 0px rgba(58, 69, 107, 0.1);*/
+}
+
+header .logo {
+	display: block;
+	position: relative;
+	top: 26px;
+	background-image: url("../img/logo/logo.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 200px;
+	height: 36px;
+	margin: 0 20%;
+}
+
+header p {
+	position: relative;
+	top: -25%;
+	float: right;
+	height: 84px;
+	display: inline-block;
+	margin-right: 20%;
+}
+
+.social_media {
+	position: relative;
+	float: right;
+	height: 84px;
+	width: 76px;
+	display: inline-block;
+	margin-right: 20%;
+}
+
+.fb_svg {
+	display: block;
+	position: relative;
+	background-image: url("../img/social/fb.png");
+	background-repeat: no-repeat;
+	float: left;
+	top: 30px;
+	width: 27px;
+	height: 27px;
+}
+
+.inst_svg {
+	display: block;
+	position: relative;
+	background-image: url("../img/social/inst.png");
+	background-repeat: no-repeat;
+	float: right;
+	top: 30px;
+	width: 27px;
+	height: 27px;
+}
+
+/* header end */
+
+/* content start */
+
+.content {
+	position: absolute;
+	width: 71%;
+	height: 85%;
+	/*border: 1px solid;*/
+	margin: 5% 20% 0 15%;
+}
+
+/*home page h1*/
+
+.home {
+	font-family: Poppins;
+	font-weight: 900;
+	float: left;
+	font-size: 48px;
+	color: #f44708;
+	margin-top: 110px;
+	margin-left: 94px;
+	margin-bottom: 10px;
+	/*border: 1px solid;*/
+}
+
+/* h1 other page*/
+
+.other {
+	display: inline-block;
+	position: relative;
+	left: 37%;
+	font-family: Poppins;
+	font-size: 36px;
+	font-weight: bold;
+	color: #f44708;
+	margin-top: 3%;
+}
+
+/* h1 fat page*/
+
+.body_fat {
+	display: inline-block;
+	position: relative;
+	left: 32%;
+	font-family: Poppins;
+	font-size: 36px;
+	font-weight: bold;
+	color: #f44708;
+	margin-top: 2%
+}
+
+.content h2 {
+	float: left;
+	font-size: 24px;
+	margin-left: 94px;
+	margin-top: 5px;
+	/*border: 1px solid;*/
+}
+
+.picture {
+	float: right;
+	width: 600px;
+	height: 480px;
+	background-image: url("../img/Fruits/picture.png");
+	background-repeat: no-repeat;
+	background-position: 48px 5px;
+	margin-top: 75px;
+	/*border: 1px solid;*/
+}
+
+.change {
+	display:block;
+	position:relative;
+	left:22%;
+	top: 10%;
+}
+
+/* button-links start */
+
+.Male {
+	display: inline-block;
+	vertical-align: 50%;
+	width: 376px;
+	height: 208px;
+	border-radius: 20px;
+	background-image: url("../img/button/male.svg");
+	background-repeat: no-repeat;
+	background-position: center 30%;
+	box-shadow: 2px 4px 8px 2px lightgray;
+	text-decoration: none;
+	color: darkgray;
+	text-align: center;
+}
+
+.Female {
+	display: inline-block;
+	vertical-align: 50%;
+	width: 376px;
+	height: 208px;
+	margin-left: 20px;
+	border-radius: 20px;
+	background-image: url("../img/button/female.svg");
+	background-repeat: no-repeat;
+	background-position: center 30%;
+	box-shadow: 2px 4px 8px 2px lightgray;
+	text-decoration: none;
+	color: darkgray;
+	text-align: bottom;
+}
+
+.Male span {
+	display: inline-block;
+	position: relative;
+	top: 125px;
+	right: 20px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #0A122A;
+	opacity: 0.5;
+}
+
+.Female span {
+	display: inline-block;
+	position: relative;
+	top: 120px;
+	left: 100px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #0A122A;
+	opacity: 0.5;
+}
+
+.Male:hover {
+	box-shadow: 2px 4px 18px 2px #F44708;
+	color: #F44708;
+	background-image: url("../img/button/male-hover.svg");	/* SVG в background-image не изменяются посредством CSS, но можно изменить с помощью JS*/
+	fill: #F44708;
+	transition: all 0.8s;
+}
+
+.Male:hover span {
+	color: #F44708;
+	transition: all 0.8s;
+	opacity: 1;
+}
+
+.Female:hover {
+	box-shadow: 2px 4px 18px 2px #F44708;
+	color: #F44708;
+	background-image: url("../img/button/female-hover.svg");	/* SVG в background-image не изменяются посредством CSS, но можно изменить с помощью JS*/
+	fill: #F44708;
+	transition: all 0.8s;
+}
+
+.Female:hover span {
+	color: #F44708;
+	transition: all 0.8s;
+	opacity: 1;
+}
+
+/* Нажатую кнопку можно сделать с помощью JS/Jquery*/
+
+/* button-links end */
+
+/* age_input start*/
+
+p input {
+	outline: 0;
+	border: none;
+	width: 75px;
+	height: 26px;
+	font-size: 26px;
+	font-weight: bold;
+	border-bottom: 3px solid;
+	border-bottom-color: #F44708;
+	text-align: center;
+}
+
+.age {
+	display: block;
+	position: relative;
+	top: 15%;
+	left: 21%;
+	width:58%;
+	height: 15%;
+	border-radius: 25px;
+	text-align: center;
+	margin-bottom: 8%;
+	font-size: 24px;
+	color: #0A122A;
+	box-shadow: 2px 4px 8px 2px lightgray;
+}
+
+.age p {
+	display: block;
+	position: relative;
+	top:25%;
+	opacity: 0.7;
+	word-spacing: 10px;
+}
+
+/* age_input end */
+
+/* fat level start доделать male/female версии изображения*/
+
+.fat {
+	display: table;
+	border-spacing: 20px;
+	position: relative;
+	top: 3%;
+	left: 20%;
+	height: 32%;
+	width: 60%;
+	text-align: center;
+	margin-bottom: -5%;
+}
+
+/* female page */
+
+.essential_female {
+	display: table-cell;
+	height: 100%;
+	width: 135px;
+	border-radius: 30px;
+	margin-left: 10px;
+	background-image: url(../img/Fat/Female/female-1.svg.svg);
+	background-repeat: no-repeat;
+	background-position: center 20%;
+	box-shadow: 2px 2px 4px 2px lightgray;
+}
+
+.athletes_female {
+	display:table-cell;
+	height: 100%;
+	width: 135px;
+	border-radius: 30px;
+	margin-left: 18px;
+	background-image: url(../img/Fat/Female/female-2.svg.svg);
+	background-repeat: no-repeat;
+	background-position: center 20%;
+	box-shadow: 2px 2px 4px 2px lightgray;
+}
+
+.fitness_female {
+	display:table-cell;
+	height: 100%;
+	width: 135px;
+	border-radius: 30px;
+	margin-left: 18px;
+	background-image: url(../img/Fat/Female/female-3.svg.svg);
+	background-repeat: no-repeat;
+	background-position: center 20%;
+	box-shadow: 2px 2px 4px 2px lightgray;
+}
+
+.acceptable_female {
+	display:table-cell;
+	width: 135px;
+	height: 100%;
+	border-radius: 30px;
+	margin-left: 18px;
+	background-image: url(../img/Fat/female/Female-4.svg.svg);
+	background-repeat: no-repeat;
+	background-position: center 20%;
+	box-shadow: 2px 2px 4px 2px lightgray;
+}
+
+.obese_female {
+	display:table-cell;
+	width: 135px;
+	height: 100%;
+	border-radius: 30px;
+	padding: 0;
+	margin-left: 18px;
+	background-image: url(../img/Fat/Female/female-4.svg.svg);
+	background-repeat: no-repeat;
+	background-position: center 20%;
+	box-shadow: 2px 2px 4px 2px lightgray;
+}
+
+/* male page */
+
+.essential_male {
+	display: table-cell;
+	height: 100%;
+	width: 135px;
+	border-radius: 30px;
+	margin-left: 10px;
+	background-image: url(../img/Fat/Male/male-1.svg.svg);
+	background-repeat: no-repeat;
+	background-position: center 20%;
+	box-shadow: 2px 2px 4px 2px lightgray;
+}
+
+.athletes_male {
+	display:table-cell;
+	height: 100%;
+	width: 135px;
+	border-radius: 30px;
+	margin-left: 18px;
+	background-image: url(../img/Fat/male/male-2.svg.svg);
+	background-repeat: no-repeat;
+	background-position: center 20%;
+	box-shadow: 2px 2px 4px 2px lightgray;
+}
+
+.fitness_male {
+	display:table-cell;
+	height: 100%;
+	width: 135px;
+	border-radius: 30px;
+	margin-left: 18px;
+	background-image: url(../img/Fat/male/male-3.svg.svg);
+	background-repeat: no-repeat;
+	background-position: center 20%;
+	box-shadow: 2px 2px 4px 2px lightgray;
+}
+
+.acceptable_male {
+	display:table-cell;
+	width: 135px;
+	height: 100%;
+	border-radius: 30px;
+	margin-left: 18px;
+	background-image: url(../img/Fat/male/male-4.svg.svg);
+	background-repeat: no-repeat;
+	background-position: center 20%;
+	box-shadow: 2px 2px 4px 2px lightgray;
+}
+
+.obese_male {
+	display:table-cell;
+	width: 135px;
+	height: 100%;
+	border-radius: 30px;
+	padding: 0;
+	margin-left: 18px;
+	background-image: url(../img/Fat/male/male-5.svg.svg);
+	background-repeat: no-repeat;
+	background-position: center 20%;
+	box-shadow: 2px 2px 4px 2px lightgray;
+}
+
+.fat span {
+	display: block;
+	margin-top: 100%;
+}
+
+.fat div:hover {
+	box-shadow: 2px 4px 18px 2px #F44708;
+	color: #F44708;
+	background-image: url("../img/Fat/Female/female-5.svg.svg");	/* SVG в background-image не изменяются посредством CSS, но можно изменить с помощью JS, закончу когда узнаю как сделать с помощью JS*/
+	fill: #F44708;
+	transition: all 0.8s;
+}
+
+/* fat level end */
+
+/* active start */
+
+.active {
+	display: table;
+	border-spacing: 20px;
+	position: relative;
+	top: 3%;
+	left: 20%;
+	height: 32%;
+	width: 60%;
+	text-align: center;
+	margin-bottom: -5%;
+}
+
+.sofa {
+	display: table-cell;
+	height: 100%;
+	width: 135px;
+	border-radius: 30px;
+	margin-left: 10px;
+	background-image: url(../img/active/sofa.svg.svg);
+	background-repeat: no-repeat;
+	background-position: center 20%;
+	box-shadow: 2px 2px 4px 2px lightgray;
+}
+
+.gymnast {
+	display:table-cell;
+	height: 100%;
+	width: 135px;
+	border-radius: 30px;
+	margin-left: 18px;
+	background-image: url(../img/active/gymnast.svg.svg);
+	background-repeat: no-repeat;
+	background-position: center 20%;
+	box-shadow: 2px 2px 4px 2px lightgray;
+}
+
+.tennis {
+	display:table-cell;
+	height: 100%;
+	width: 135px;
+	border-radius: 30px;
+	margin-left: 18px;
+	background-image: url(../img/active/tennis.svg.svg);
+	background-repeat: no-repeat;
+	background-position: center 20%;
+	box-shadow: 2px 2px 4px 2px lightgray;
+}
+
+.cycling {
+	display:table-cell;
+	width: 135px;
+	height: 100%;
+	border-radius: 30px;
+	margin-left: 18px;
+	background-image: url(../img/active/cycling.svg.svg);
+	background-repeat: no-repeat;
+	background-position: center 20%;
+	box-shadow: 2px 2px 4px 2px lightgray;
+}
+
+.athletics {
+	display:table-cell;
+	width: 135px;
+	height: 100%;
+	border-radius: 30px;
+	padding: 0;
+	margin-left: 18px;
+	background-image: url(../img/active/athletics.svg.svg);
+	background-repeat: no-repeat;
+	background-position: center 20%;
+	box-shadow: 2px 2px 4px 2px lightgray;
+}
+
+.active span {
+	display: block;
+	margin-top: 100%;
+}
+
+.active div:hover {
+	box-shadow: 2px 4px 18px 2px #F44708;
+	color: #F44708;
+	background-image: url("../img/active/athletics.svg.svg");	/* SVG в background-image не изменяются посредством CSS, но можно изменить с помощью JS, закончу когда узнаю как сделать с помощью JS*/
+	fill: #F44708;
+	transition: all 0.8s;
+}
+
+/* active end */
+
+/* button start*/
+
+.container {
+	float: left;
+	margin-left: 94px;
+	margin-top: 60px;
+	width: 200px;
+	height: 50px;
+	border: 1px;
+	border-radius: 100px;
+	background: linear-gradient(to right, #faad28, #f44909);
+	z-index: 30;
+}
+
+.container_next {
+	position: relative;
+	top: 90px;
+	right: 200px;
+	width: 200px;
+	height: 50px;
+	border: 1px;
+	border-radius: 100px;
+	background: linear-gradient(to right, #faad28, #f44909);
+	z-index: 30;
+}
+
+.container a {
+	display: block;
+	width: 200px;
+	height: 50px;
+	color: white;
+	border: 1px;
+	font-size: 18px;
+	text-align: left;
+	text-decoration: none;
+	border-radius: 100px;
+	box-shadow: 2px 2px 4px 2px #fcd389;
+}
+
+a span {
+	display: block;
+	text-align: left;
+	padding-left: 45px;
+	padding-top: 10px;
+}
+
+.button:hover {
+	transition: all 0.6s;
+}
+
+.button span::after {
+	content: url("../img/button/icon-arrow.png");
+	float: right;
+	padding-right: 25px;
+	padding-top: 2px;
+	transition: 0.6s;
+	opacity: 1;
+}
+
+
+.button:hover span::after {
+	opacity: 1;
+}
+
+.button:active span::after {
+	transition: all 0.6s;
+	margin-left: 10px;
+	opacity: 0.2;
+	overflow: hidden;
+}
+.button:active {
+	box-shadow: 1px 1px 3px 1px #fcd389;
+	transition: all 0.6s;
+}
+
+/* button end */
+
+/* button-next start */
+
+.container_next {
+	float: right;
+	margin-right: 94px;
+	margin-top: 60px;
+	width: 200px;
+	height: 50px;
+	border: 1px;
+	border-radius: 100px;
+	background: linear-gradient(to right, #faad28, #f44909);
+	z-index: 30;
+}
+
+.container_next a {
+	display: block;
+	width: 200px;
+	height: 50px;
+	color: white;
+	border: 1px;
+	font-size: 18px;
+	text-align: left;
+	text-decoration: none;
+	border-radius: 100px;
+	box-shadow: 2px 2px 4px 2px #fcd389;
+}
+
+/* button-next end */
+
+.progress {
+	position: absolute;
+	left: 15%;
+	background: linear-gradient(to right, #faad28, #f44909);
+	height: 3px;
+	width: 12%;
+}
+
+.progress_age {
+	position: absolute;
+	left: 15%;
+	background: linear-gradient(to right, #faad28, #f44909);
+	height: 3px;
+	width: 24%;
+}
+
+.progress_fat {
+	position: absolute;
+	left: 15%;
+	background: linear-gradient(to right, #faad28, #f44909);
+	height: 3px;
+	width: 35%;
+}
+
+.progress_weight {
+	position: absolute;
+	left: 15%;
+	background: linear-gradient(to right, #faad28, #f44909);
+	height: 3px;
+	width: 50%;
+}
+
+.progress_height {
+	position: absolute;
+	left: 15%;
+	background: linear-gradient(to right, #faad28, #f44909);
+	height: 3px;
+	width: 60%;
+}
+
+.progress_active {
+	position: absolute;
+	left: 15%;
+	background: linear-gradient(to right, #faad28, #f44909);
+	height: 3px;
+	width: 65%;
+}
+
+/* content end */
+
+/*footer*/
+
+footer {
+	position: absolute;
+	top: 700px;
+	display: block;
+	float: bottom;
+	position: relative;
+	width: 1366px;
+	height: 100%;
+	margin: 0px 280px;
+}
+
+footer ul {
+	padding-left: 65px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #a2a3a8;
+}
+
+footer li {
+	display: inline;
+	padding-left: 30px;
+	white-space: nowrap;
+}
+
+footer li:last-child {
+	margin-left: 520px;
+	color: #a2a3a8;
+}
